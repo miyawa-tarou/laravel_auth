@@ -13,3 +13,4 @@
 
 Route::get('/', 'IndexController@index');
 Route::get('/login', 'LoginController@index');
+Route::post('/login/login', 'LoginController@login');
