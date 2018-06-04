@@ -17,6 +17,7 @@ class AuthUser extends Migration
             $table->increments('id');
             $table->string('nm');
             $table->string('password');
+            $table->rememberToken();
             $table->timestamps();
         });
 
